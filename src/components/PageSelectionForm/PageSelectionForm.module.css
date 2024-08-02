@@ -1,0 +1,124 @@
+.pageSelectionForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.625rem 0;
+  box-shadow: 0px 8px 15px 0px rgba(20, 20, 20, 0.12),
+    0px 0px 4px 0px rgba(20, 20, 20, 0.1);
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 6px;
+}
+
+.allPagesSelector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.9375rem 0.5rem 1.375rem;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.1375rem;
+}
+
+.hr {
+  border: 0;
+  width: 21.25rem;
+  height: 0.7px;
+  margin: 0.625rem 0.9375rem;
+  background: rgba(205, 205, 205, 1);
+}
+
+.pageSelectorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.pageSelector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.9375rem 0.5rem 1.375rem;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.1375rem;
+}
+
+.submitButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.625rem 0.9375rem;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1375rem;
+  background-color: rgba(255, 206, 34, 1);
+  border: none;
+  border-radius: 4px;
+}
+
+.submitButton:hover {
+  background-color: rgba(255, 216, 77, 1);
+}
+
+.submitButton:active {
+  background-color: rgba(255, 206, 34, 1);
+}
+
+.checkBoxInput {
+  width: 1.4375rem;
+  height: 1.4375rem;
+  position: relative;
+  border-radius: 6px;
+  right: 6px;
+  border: 1px solid #cdcdcd60;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.checkBoxInput:hover {
+  background-color: #5087f8;
+  background-image: url("../../assets/tick.svg");
+  background-size: 16px 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.checkBoxInput:active {
+  background-color: #2469f6;
+}
+
+.checkBoxInput:checked:hover {
+  background-color: #5087f8;
+}
+
+.checkBoxInput:checked {
+  background-color: #2469f6;
+  background-image: url("../../assets/tick.svg");
+  background-size: 16px 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+.checked {
+  background-color: #2469f6;
+  background-image: url("../../assets/tick.svg");
+  background-size: 16px 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
