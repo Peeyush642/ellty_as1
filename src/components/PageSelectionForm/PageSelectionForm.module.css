@@ -122,3 +122,39 @@
   background-position: center;
   border: none;
 }
+
+@media screen and (width <= 520px) {
+  .pageSelectionForm {
+    padding: 0.625rem 0.3125rem;
+  }
+
+  .allPagesSelector {
+    padding: 0.5rem 0.625rem 0.5rem 0.625rem;
+  }
+
+  .hr {
+    width: 18.75rem;
+    margin: 0.625rem 0.625rem;
+  }
+
+  .pageSelector {
+    padding: 0.5rem 0.625rem 0.5rem 0.625rem;
+  }
+
+  .submitButtonContainer {
+    padding: 0.625rem 0.625rem;
+  }
+
+  .submitButton {
+    padding: 0.625rem 1rem;
+  }
+
+   .checkBoxInput:hover {
+    background-color: transparent;
+  }
+
+  .checkBoxInput:checked:hover {
+    background-color: #2469f6;
+  }
+  
+}
